@@ -11,7 +11,7 @@ const Index = () => {
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-gradient-to-b from-black/50 to-transparent absolute z-10"></div>
           <img 
-            src="/img/lp/1.jpg" 
+            src="/images/img/lp/1.jpg" 
             alt="高品質3Dインテリアレンダリング" 
             className="w-full h-full object-cover"
           />
@@ -57,7 +57,7 @@ const Index = () => {
             </div>
             <div className="fade-up delay-300">
               <img 
-                src="/img/lp/1.jpg" 
+                src="/images/img/lp/2.jpg" 
                 alt="一の間 スタジオ" 
                 className="w-full h-auto rounded-md shadow-md"
               />
@@ -83,7 +83,7 @@ const Index = () => {
             <div className="fade-up delay-100">
               <Link to="/gallery" className="block overflow-hidden rounded-md shadow-sm">
                 <img 
-                  src="/images/gallery-1.jpg" 
+                  src="/images/img/lp/3.jpg" 
                   alt="リビングルーム レンダリング" 
                   className="w-full h-auto image-hover"
                 />
@@ -92,7 +92,7 @@ const Index = () => {
             <div className="fade-up delay-200">
               <Link to="/gallery" className="block overflow-hidden rounded-md shadow-sm">
                 <img 
-                  src="/images/gallery-2.jpg" 
+                  src="/images/img/lp/4.jpg" 
                   alt="キッチン レンダリング" 
                   className="w-full h-auto image-hover"
                 />
@@ -101,7 +101,7 @@ const Index = () => {
             <div className="fade-up delay-300">
               <Link to="/gallery" className="block overflow-hidden rounded-md shadow-sm">
                 <img 
-                  src="/images/gallery-3.jpg" 
+                  src="/images/img/lp/5.jpg" 
                   alt="ベッドルーム レンダリング" 
                   className="w-full h-auto image-hover"
                 />

@@ -28,7 +28,7 @@ const About = () => {
                 私たちの想い
               </h2>
               <p className="text-charcoal-light mb-4">
-                一の間レンダリングは、2015年に建築家の佐藤大輔と3DCGアーティストの山田健太によって設立されました。日本の伝統的な美意識と最新のCG技術を融合させ、空間デザインの新しい可能性を追求することを目指しています。
+                一の間レンダリングは、2025年に建築家のanonymと3DCGアーティストのanonym2によって設立されました。日本の伝統的な美意識と最新のCG技術を融合させ、空間デザインの新しい可能性を追求することを目指しています。
               </p>
               <p className="text-charcoal-light mb-4">
                 「一の間」という名前には、最上級の空間表現を追求するという私たちの決意が込められています。一つ一つの空間を大切に、細部までこだわり抜いたビジュアルを提供することで、建築家やデザイナーの創造性をサポートし、クライアントとのコミュニケーションを円滑にすることが私たちの使命です。
@@ -39,7 +39,7 @@ const About = () => {
             </div>
             <div className="fade-up delay-200">
               <img 
-                src="/images/about-story.jpg" 
+                src="/images/img/abt/1.jpg" 
                 alt="一の間 ストーリー" 
                 className="w-full h-auto rounded-md shadow-md"
               />
@@ -118,12 +118,12 @@ const About = () => {
             <div className="text-center fade-up delay-100">
               <div className="mb-6">
                 <img 
-                  src="/images/team-1.jpg" 
-                  alt="佐藤大輔 - 創業者" 
+                  src="/images/img/abt/ghz.jpeg" 
+                  alt="anonym - 創業者" 
                   className="w-48 h-48 object-cover rounded-full mx-auto"
                 />
               </div>
-              <h3 className="text-xl font-medium text-charcoal mb-2">佐藤大輔</h3>
+              <h3 className="text-xl font-medium text-charcoal mb-2">anonym</h3>
               <p className="text-charcoal-light mb-4">創業者 / 建築家</p>
               <p className="text-sm text-charcoal-light max-w-xs mx-auto">
                 複数の受賞歴を持つ建築家。空間デザインの専門知識を活かし、
@@ -134,12 +134,12 @@ const About = () => {
             <div className="text-center fade-up delay-200">
               <div className="mb-6">
                 <img 
-                  src="/images/team-2.jpg" 
-                  alt="山田健太 - クリエイティブディレクター" 
+                  src="/images/img/abt/ghz.jpeg" 
+                  alt="anonym2 - クリエイティブディレクター" 
                   className="w-48 h-48 object-cover rounded-full mx-auto"
                 />
               </div>
-              <h3 className="text-xl font-medium text-charcoal mb-2">山田健太</h3>
+              <h3 className="text-xl font-medium text-charcoal mb-2">anonym2</h3>
               <p className="text-charcoal-light mb-4">クリエイティブディレクター</p>
               <p className="text-sm text-charcoal-light max-w-xs mx-auto">
                 15年以上のCG制作経験を持つアーティスト。映画業界での経験を活かし、
@@ -150,12 +150,12 @@ const About = () => {
             <div className="text-center fade-up delay-300">
               <div className="mb-6">
                 <img 
-                  src="/images/team-3.jpg" 
-                  alt="鈴木美咲 - テクニカルアーティスト" 
+                  src="/images/img/abt/ghz.jpeg" 
+                  alt="anonym3 - テクニカルアーティスト" 
                   className="w-48 h-48 object-cover rounded-full mx-auto"
                 />
               </div>
-              <h3 className="text-xl font-medium text-charcoal mb-2">鈴木美咲</h3>
+              <h3 className="text-xl font-medium text-charcoal mb-2">anonym3</h3>
               <p className="text-charcoal-light mb-4">テクニカルアーティスト</p>
               <p className="text-sm text-charcoal-light max-w-xs mx-auto">
                 先進的なレンダリング技術の専門家。最新のCGテクノロジーを駆使し、
