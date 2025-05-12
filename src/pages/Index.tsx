@@ -11,7 +11,7 @@ const Index = () => {
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-gradient-to-b from-black/50 to-transparent absolute z-10"></div>
           <img 
-            src="/images/hero.jpg" 
+            src="/img/lp/1.jpg" 
             alt="高品質3Dインテリアレンダリング" 
             className="w-full h-full object-cover"
           />
@@ -57,7 +57,7 @@ const Index = () => {
             </div>
             <div className="fade-up delay-300">
               <img 
-                src="/images/about-preview.jpg" 
+                src="/img/lp/1.jpg" 
                 alt="一の間 スタジオ" 
                 className="w-full h-auto rounded-md shadow-md"
               />
