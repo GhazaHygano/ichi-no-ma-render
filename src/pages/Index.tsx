@@ -1,5 +1,6 @@
 
 import Layout from "../components/layout/Layout";
+import FeaturedGallery from "../components/FeaturedGallery";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -37,8 +38,15 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section Preview */}
+      {/* New Featured Japanese Garden Interior Section */}
       <section className="bg-beige section-padding">
+        <div className="container mx-auto">
+          <FeaturedGallery />
+        </div>
+      </section>
+
+      {/* About Section Preview */}
+      <section className="bg-white section-padding">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="fade-up">
@@ -101,8 +109,8 @@ const Index = () => {
             <div className="fade-up delay-300">
               <Link to="/gallery" className="block overflow-hidden rounded-md shadow-sm">
                 <img 
-                  src="/images/gallery-3.jpg" 
-                  alt="ベッドルーム レンダリング" 
+                  src="/images/japanese-interior-garden-3.jpg" 
+                  alt="モダン和風 - 光庭" 
                   className="w-full h-auto image-hover"
                 />
               </Link>
