@@ -1,26 +1,21 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+
+import { Link } from "react-router-dom";
+import Layout from "../components/layout/Layout";
+import { Button } from "@/components/ui/button";
 
 const NotFound = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
-      location.pathname
-    );
-  }, [location.pathname]);
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <Layout>
+      <div className="min-h-[80vh] flex flex-col items-center justify-center px-4 text-center">
+        <h1 className="text-6xl md:text-8xl font-medium text-charcoal mb-6 font-serif">404</h1>
+        <p className="text-xl md:text-2xl text-charcoal-light mb-8">
+          お探しのページが見つかりませんでした
+        </p>
+        <Button asChild className="px-8 py-6">
+          <Link to="/">ホームに戻る</Link>
+        </Button>
       </div>
-    </div>
+    </Layout>
   );
 };
 
