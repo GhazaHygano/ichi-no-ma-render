@@ -11,6 +11,7 @@ const categories = [
   { id: "bedroom", name: "ベッドルーム" },
   { id: "bathroom", name: "バスルーム" },
   { id: "office", name: "オフィス" },
+  { id: "garden", name: "和庭" }, // Added Japanese garden category
 ];
 
 const galleryItems = [
@@ -76,6 +77,49 @@ const galleryItems = [
     description: "創造性を刺激するオープンなオフィス空間。チームワークとコミュニケーションを促進するデザインです。",
     category: "office",
     image: "/images/img/gal/9.jpg",
+  },
+  // Adding new Japanese garden-themed interior images
+  {
+    id: 10,
+    title: "和モダン - 室内坪庭",
+    description: "伝統的な日本の美学と現代的なデザインが融合した室内坪庭。石、苔、水の要素が調和した癒しの空間です。",
+    category: "garden",
+    image: "/images/japanese-interior-garden-1.jpg",
+  },
+  {
+    id: 11,
+    title: "禅スタイル リビング",
+    description: "禅の美学を取り入れたミニマルなリビング空間。小さな枯山水が室内に静寂と落ち着きをもたらします。",
+    category: "garden",
+    image: "/images/japanese-interior-garden-2.jpg",
+  },
+  {
+    id: 12,
+    title: "モダン和風 - 光庭",
+    description: "現代的な和のデザインに光庭を取り入れたリビング。自然光と植栽が調和した開放的な空間になっています。",
+    category: "living",
+    image: "/images/japanese-interior-garden-3.jpg",
+  },
+  {
+    id: 13,
+    title: "茶室インスピレーション",
+    description: "現代的な解釈の茶室空間。伝統的な要素とミニ庭園を取り入れた落ち着きのある和モダン設計です。",
+    category: "garden",
+    image: "/images/japanese-interior-garden-4.jpg",
+  },
+  {
+    id: 14,
+    title: "和風ベッドルーム - 水景",
+    description: "小さな水景を取り入れた和風ベッドルーム。水の音と緑が心地よい睡眠環境を創出します。",
+    category: "bedroom",
+    image: "/images/japanese-interior-garden-5.jpg",
+  },
+  {
+    id: 15,
+    title: "モダンオフィス - 苔庭",
+    description: "集中力を高める苔庭を取り入れたモダンなオフィス空間。自然との調和がクリエイティブな思考を促進します。",
+    category: "office",
+    image: "/images/japanese-interior-garden-6.jpg",
   },
 ];
 
